@@ -9,7 +9,6 @@ feature "Player names" do
     fill_in "Player_2", with: "Scorpion"
 
     click_button "Start Game"
-    expect(page).to have_content "Welcome Sub-Zero"
-    expect(page).to have_content "Welcome Scorpion"
+    expect(page).to have_content "Welcome. Sub-Zero vs Scorpion"
   end
 end
