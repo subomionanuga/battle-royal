@@ -30,7 +30,7 @@ class Battle < Sinatra::Base
 
   get "/fight" do
     $Player_1
-    $Player_2
+    $Player_2.reduce_hp
     erb(:fight)
   end
 

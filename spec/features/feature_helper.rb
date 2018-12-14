@@ -12,3 +12,9 @@ def enter_arena
   visit("/play")
   click_button "Enter the Arena"
 end
+
+def hp_reduce
+  index_route
+  names_and_start
+  enter_arena
+end
