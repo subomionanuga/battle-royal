@@ -6,7 +6,7 @@ feature "Player names" do
     index_route
     expect(page).to have_content "Enter player names"
     names_and_start
-    expect(page).to have_content "Welcome. Sub-Zero vs Scorpion"
+    expect(page).to have_content "Get Ready. Sub-Zero vs Scorpion"
   end
 end
 
